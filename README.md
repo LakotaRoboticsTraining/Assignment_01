@@ -42,11 +42,15 @@ public class HelloRobot {
 
 ### What each part means
 
-`public class HelloRobot { ... }`
+```java
+public class HelloRobot { ... }
+```
 
 Required setup around your program. Keep it as shown for now. The name `HelloRobot` should match the file name `HelloRobot.java`.
 
-`public static void main(String[] args)`
+```java
+public static void main(String[] args)
+```
 
 This is the start of your program. Java always looks for `main` first. Memorize this line for now.
 
@@ -54,7 +58,9 @@ This is the start of your program. Java always looks for `main` first. Memorize 
 
 Curly braces mark the start and end of a block of code. Your print statements go inside the braces that belong to `main`.
 
-`System.out.println(...)`
+```java
+System.out.println(...)
+```
 
 Prints a line of text to the console, then moves to the next line.
 
