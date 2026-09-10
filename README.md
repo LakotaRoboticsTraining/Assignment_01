@@ -168,18 +168,21 @@ Do it with two print calls (not one).
 
 ## Check your understanding
 
-1. Where does a Java program start running?
-2. Does every Java program need a `main` method?
-3. What is the difference between `print` and `println`?
-
-Answers on the next page.
+1. <details>
+     <summary>Where does a Java program start running?</summary>
+     In the `main` method.
+   </details>
+2. <details>
+     <summary>Does every Java program need a `main` method?</summary>
+     Yes. Java looks for `main` to start the program.
+   </details>
+3. <details>
+     <summary>What is the difference between `print` and `println`?</summary>
+     `println` ends the line; `print` does not.
+   </details>
 
 ## Looking ahead
 
 In Lesson 2, you will store values in variables (numbers, text, true/false) and print them. That is the next step toward tracking motor speeds, sensor readings, and scores in robot code.
 
 Lesson complete. When you can run a program that starts in `main` and print several lines confidently, you are ready for Lesson 2.
-
----
-
-Answers: (1) In the `main` method. (2) Yes. Java looks for `main` to start the program. (3) `println` ends the line; `print` does not.
