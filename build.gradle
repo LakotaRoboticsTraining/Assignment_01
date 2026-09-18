@@ -14,12 +14,14 @@ repositories {
     mavenCentral()
 }
 
-// Flat layout: Main.java + MainTest.java live in the repo root (no src/ tree yet).
+// Flat layout: student .java files and *Test.java live in the repo root.
 sourceSets {
     main {
         java {
             srcDirs = ['.']
-            include 'Main.java'
+            exclude '**/*Test.java'
+            exclude '**/build/**'
+            exclude '**/.gradle/**'
         }
         resources {
             srcDirs = []
@@ -28,7 +30,9 @@ sourceSets {
     test {
         java {
             srcDirs = ['.']
-            include '*Test.java'
+            include '**/*Test.java'
+            exclude '**/build/**'
+            exclude '**/.gradle/**'
         }
         resources {
             srcDirs = []
