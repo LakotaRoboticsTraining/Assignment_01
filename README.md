@@ -1,6 +1,6 @@
 # Lesson 1: The Main Method and Print Statements
 
-*Java to Robot Code — Student Training*
+*Java to Robot Code - Student Training*
 
 Goal: Write and run your first Java program. Know that every Java program starts in `main`, and learn how to print messages to the console.
 
@@ -8,13 +8,13 @@ Time: About 20-30 minutes
 
 ## You will learn
 
-- That every Java program has a `main` method — that is where the program starts
+- That every Java program has a `main` method - that is where the program starts
 - How to print text with `System.out.println`
 - How to run a simple program and read the output
 
 ## Why this matters for robots
 
-Later, when you write FRC robot code, your program still has to start somewhere. That starting place is the `main` method. Printing messages (`System.out.println`) is also how you debug — for example, printing sensor values or `"shooter started"` while testing.
+Later, when you write FRC robot code, your program still has to start somewhere. That starting place is the `main` method. Printing messages (`System.out.println`) is also how you debug - for example, printing sensor values or `"shooter started"` while testing.
 
 Today you practice the same idea in a tiny program.
 
@@ -24,7 +24,7 @@ Every Java program has a `main` method.
 
 When you click Run, Java looks for `main` and runs the code inside it, top to bottom. Your job in this lesson is to put print statements inside `main` and see what shows up.
 
-You will also see a few lines around `main` (like `public class HelloRobot`). Treat those as required setup for now — you need them so the program can run. We will explain what they mean in a later lesson. Focus on `main` and printing.
+You will also see a few lines around `main` (like `public class HelloRobot`). Treat those as required setup for now - you need them so the program can run. We will explain what they mean in a later lesson. Focus on `main` and printing.
 
 Printing means sending text to the console (the output window). That is how you see what your program is doing.
 
@@ -66,7 +66,7 @@ Prints a line of text to the console, then moves to the next line.
 
 `"Hello, robot world!"`
 
-A string — text in double quotes.
+A string - text in double quotes.
 
 `;`
 
@@ -108,8 +108,8 @@ Ready to drive
 
 ## println vs print
 
-- `System.out.println("text")` — prints the text, then goes to a new line
-- `System.out.print("text")` — prints the text and stays on the same line
+- `System.out.println("text")` - prints the text, then goes to a new line
+- `System.out.print("text")` - prints the text and stays on the same line
 
 ```java
 public class HelloRobot {
@@ -133,24 +133,24 @@ An empty `System.out.println();` prints a blank line (it just moves to the next 
 
 ## Common mistakes
 
-1. Typo in `main` — `Main`, `mian`, or changing `String[] args` means Java may not find the starting point.
-2. Code outside of `main` — Your print statements need to be inside the curly braces that belong to `main`.
-3. Missing semicolon — `System.out.println("hi")` without a semicolon will not compile.
-4. Using single quotes for a whole sentence — Strings use double quotes.
-5. Mismatched braces — Count your braces — every opener needs a closer.
-6. File name does not match — If the file is `HelloRobot.java`, keep the name `HelloRobot` in the setup line at the top.
+1. Typo in `main` - `Main`, `mian`, or changing `String[] args` means Java may not find the starting point.
+2. Code outside of `main` - Your print statements need to be inside the curly braces that belong to `main`.
+3. Missing semicolon - `System.out.println("hi")` without a semicolon will not compile.
+4. Using single quotes for a whole sentence - Strings use double quotes.
+5. Mismatched braces - Count your braces - every opener needs a closer.
+6. File name does not match - If the file is `HelloRobot.java`, keep the name `HelloRobot` in the setup line at the top.
 
 ## Try it yourself
 
 Edit `Main.java`. Put **all** of your challenge code inside the `main` method.
 
-Do **not** edit `MainTest.java` — that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
+Do **not** edit `MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
 
-### Challenge 1 — Team intro
+### Challenge 1 - Team intro
 
-Print three lines: (1) your team number, (2) your name, (3) the word “Programming”.
+Print three lines: (1) your team number, (2) your name, (3) the word "Programming".
 
-### Challenge 2 — Robot status board
+### Challenge 2 - Robot status board
 
 Print a mini status board like:
 
@@ -162,7 +162,7 @@ Shooter: idle
 ====================
 ```
 
-### Challenge 3 — Same line, two prints
+### Challenge 3 - Same line, two prints
 
 Using both `print` and `println`, produce exactly: `Autonomous mode: starting...`
 
