@@ -49,7 +49,7 @@ class MainTest {
             "Challenge 3: output must include: Autonomous mode: starting..."
         );
 
-        String source = Files.readString(Path.of("Main.java"));
+        String source = Files.readString(Path.of("src/main/java/Main.java"));
         assertTrue(
             source.contains("System.out.print("),
             "Challenge 3: use System.out.print(...) for part of the message."
